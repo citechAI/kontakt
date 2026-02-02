@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Poschmann;Ingo
+FN:Dr. Ingo Poschmann
+ORG:citechAI
+TEL;TYPE=CELL,VOICE:+49 155 626 554 77
+EMAIL:i.poschmann@citech-ai.de
+ADR;TYPE=WORK:;;Katernberger Straße 107;Essen;;45327;Deutschland
+URL:https://www.citech-ai.de/
+END:VCARD
