@@ -2,12 +2,19 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="3;url=https://www.citech-ai.de/">
   <title>Kontakt speichern</title>
 </head>
 <body>
   <script>
-    window.location.href = 'dr-ingo-poschmann.vcf';
+    var link = document.createElement('a');
+    link.href = 'dr-ingo-poschmann.vcf';
+    link.download = 'dr-ingo-poschmann.vcf';
+    document.body.appendChild(link);
+    link.click();
+    
+    setTimeout(function() {
+      window.location.href = 'https://www.citech-ai.de/';
+    }, 2000);
   </script>
 </body>
 </html>
